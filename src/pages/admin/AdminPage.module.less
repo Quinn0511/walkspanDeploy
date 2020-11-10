@@ -1,0 +1,49 @@
+.container {
+  box-sizing: border-box;
+
+  .header {
+    text-align: center;
+  }
+
+  .mainContainer {
+    width: 100%;
+    margin-top: 20px;
+
+    :global {
+      .ant-menu-item-selected {
+        color: #db6333;
+      }
+
+      .ant-menu-inline .ant-menu-item::after {
+        border-right-color: #db6333;
+      }
+
+      li.ant-menu-item:hover {
+        color: #db6333;
+      }
+
+      .ant-btn-primary {
+        background: #db6333;
+        border-color: #db6333;
+      }
+    }
+
+    .newbutton {
+      background: #db6333;
+      border-color: #db6333;
+    }
+
+
+    .menuList {
+      span {
+        margin-left: 12px;
+        align-items: center;
+      }
+    }
+  }
+
+  .footer {
+    padding: 20px;
+    margin-top: 20px;
+  }
+}

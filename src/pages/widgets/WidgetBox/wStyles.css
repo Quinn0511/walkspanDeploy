@@ -1,0 +1,162 @@
+/* orange box*/
+.walkspan-right-wrapper{
+    border: 2px solid #DB6333;
+    border-radius: 46px;
+    width: 944px;
+    min-height: 600px;
+    font: bold 22px/27px Montserrat;
+    position: absolute;	
+    opacity: 1;
+    box-sizing: border-box;
+  }
+  
+  /* orange background on top*/
+  .view-wrapper {  
+    
+    height: 87px;
+    background: #DB6333 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+  
+  }
+
+  .view-links{
+    color: #FFFFFF;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none !important;
+  }
+  
+  /*underline when selected*/
+  .active {
+    text-decoration: underline;
+  }
+
+  a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  .active {
+    text-decoration: underline;
+  }
+
+  .image {
+    width: 173px;
+    height: 88px;    
+ }
+
+ .walkability-feature {
+  border: 2px solid #FFF;
+  border-radius: 48px;
+  cursor: pointer;
+  display: inline-block;
+  top:581px;
+  font-size: 14px;
+  height: 52px;
+  margin: 4px;
+  opacity: 0.5;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+
+.walkability-feature:hover {
+  background-color: #F7F7F7 !important;
+}
+
+.walkability-feature-image {
+  border-radius: 50%;
+  display: inline-block;
+  padding: 6px;
+  vertical-align: top;
+}
+
+.walkability-feature-image > img {
+  height: 56px;
+  width: 50px;
+}
+
+.scope{
+  width: 333px;
+}
+
+.morefeatures{
+  list-style: none;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.titleScore{
+  list-style: none;
+  width: 150px;
+}
+
+.comparsionImg{
+  text-align: left;
+  margin-top: 0px;
+  float: left;
+  clear: both;
+}
+
+.length {
+  width: 70%;
+}
+
+.icons{
+  list-style: none;
+}
+
+.score{
+  width: 88px;
+  height: 88px;
+}
+
+.arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+ 
+}

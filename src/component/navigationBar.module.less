@@ -1,0 +1,60 @@
+.container {
+  background: transparent url("../img/homepage/header_bg.png") 0% 0% no-repeat
+    padding-box;
+
+  display: flex;
+
+  .logoContainer {
+    display: flex;
+    margin-top: 5px;
+    width: 400px;
+    padding: 20px;
+
+    .img {
+      width: 30%;
+      height: 30%;
+      padding: 10px;
+    }
+    .companyName {
+      margin-top: 15px;
+      margin-left: 0px;
+      text-align: center;
+      font-size: 1.5rem;
+      color: white;
+      font-family: Montserrat;
+    }
+  }
+
+  .menuContainer {
+    margin-top: 30px;
+    width: fit-content;
+    float: right;
+    border-bottom: white;
+    background: transparent;
+    position: relative;
+    top: 33%;
+    :global {
+      ul.ant-menu.ant-menu-light.ant-menu-root.ant-menu-horizontal {
+        background: transparent;
+        font-size: 1rem;
+        font-family: Montserrat;
+      }
+      .ant-menu-horizontal {
+        border-bottom: white;
+        background: transparent;
+      }
+      .container .ant-menu-horizontal {
+        border-bottom: white;
+        background: transparent;
+      }
+      .ant-menu-dark.ant-menu-horizontal > .ant-menu-item:hover {
+        background-color: transparent;
+      }
+      .ant-menu.ant-menu-dark .ant-menu-item-selected,
+      .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+        background-color: transparent;
+        border-bottom-color: white;
+      }
+    }
+  }
+}
