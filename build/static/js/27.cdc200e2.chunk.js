@@ -1,0 +1,2 @@
+(this["webpackJsonpsenseofwalk-v2"]=this["webpackJsonpsenseofwalk-v2"]||[]).push([[27],{668:function(e,n,t){"use strict";t.r(n);var a=t(0),l=t.n(a);n.default=function(){return l.a.createElement("div",null,l.a.createElement("ul",null,["Alex","John","Jaz","fedrik","missali"].map((function(e,n){return l.a.createElement("li",{key:n},e)}))))}}}]);
+//# sourceMappingURL=27.cdc200e2.chunk.js.map
